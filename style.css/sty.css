@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 body{
   background-image: url(https://steamuserimages-a.akamaihd.net/ugc/1287415702950350675/DE7D3AA225BC3E5FD9274C637F65D9DBDAC02B80/);
@@ -26,15 +26,18 @@ body{
   padding: 15px 200px;
   background: linear-gradient(to right ,rgba(178,47,147,.6)5%, rgba(35,6,9,.9));  ;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Inter', sans-serif;
 }
 .nav,
 .nav .nav-links {
   display: flex;
   align-items: center;
+    font-family: 'Inter', sans-serif;
 }
 .nav {
   justify-content:space-around ;
   padding: 10px;
+    font-family: 'Inter', sans-serif;
 
 }
 a {
@@ -44,6 +47,7 @@ a {
 .nav .logo {
   font-size: 22px;
   font-weight: 500;
+    
 }
 .nav .nav-links {
   column-gap: 20px;
